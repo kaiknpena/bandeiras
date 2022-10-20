@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bandeira de Barbados</title>
+</head>
+
+<body>
+    <style>
+        .barbados {
+            background-color: blue;
+            width: 325px;
+            height: 200px;
+            margin: 1px auto;
+            position: relative;
+            border: solid 1px;
+        }
+
+        .barbados>.meio {
+            background-color: yellow;
+            width: 33.3%;
+            height: 100%;
+            position: absolute;
+            right: 33.3%;
+        }
+
+        .barbados>.meio>.ceta {
+            color: black;
+            margin-left: 34px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 66px;
+            position: absolute;
+            vertical-align: middle;
+            align-items: center;
+        }
+
+        .barbados>.meio>.meioesquerda {
+            color: black;
+            margin-left: 15px;
+            margin-top: 55px;
+            font-family: Cambria;
+            font-size: 55px;
+            position: absolute;
+            vertical-align: middle;
+            align-items: center;
+            -webkit-transform: scale(-1, 1) rotate(-17deg);
+        }
+
+        .barbados>.meio>.meiodireita {
+            color: black;
+            margin-left: 46px;
+            margin-top: 55px;
+            font-family: Cambria;
+            font-size: 55px;
+            position: absolute;
+            vertical-align: middle;
+            align-items: center;
+            transform: rotate(-17deg);
+        }
+    </style>
+    <div class="barbados">
+        <div class="meio">
+            <h1 class="ceta">↑</h1>
+            <h1 class="meioesquerda">✓</h1>
+            <h1 class="meiodireita">✓</h1>
+
+        </div>
+    </div>
+</body>
+
+</html>
